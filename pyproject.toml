@@ -1,1 +1,14 @@
-
+[project]
+name = "vested_claims"
+version = "0.1.0"
+description = """
+This smart contract is designed for distributing tokens with a vesting schedule. 
+The contract uses Merkle trees for claims, allowing 31% of tokens to be released 
+at the Token Generation Event (TGE) and the remaining 69% to be released linearly 
+over time.
+"""
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "moccasin>=0.3.6",
+]
